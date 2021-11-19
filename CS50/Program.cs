@@ -18,8 +18,8 @@ namespace CS50
             Console.Write("Menu: ");
             string userChoice = Console.ReadLine();
             Console.WriteLine();
-            if (userChoice == "Week1") { Week1.Pryamid(); }
-            
+            if (userChoice == "Mario") { Week1.Pryamid(); }
+            if (userChoice == "Cash") { Week1.Cash(); }
             else
             {
                 Environment.Exit(0);
@@ -27,4 +27,5 @@ namespace CS50
         }
     }
 }
-//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
+//if some customer is owed $9.75 (as in the case where a newspaper costs 25¢ but the customer pays
+//with a $10 bill), assume that your program’s input will be 9.75
