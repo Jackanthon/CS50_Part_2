@@ -15,7 +15,7 @@ namespace CS50
         }
         public static void Menu()
         {
-            Console.Write("Menu $");
+            Console.Write("Menu: ");
             string userChoice = Console.ReadLine();
             Console.WriteLine();
             if (userChoice == "Week1") { Week1.Pryamid(); }
