@@ -1,0 +1,7 @@
+C:\Users\JackA\source\repos\CS50\CS50\bin\Debug\CS50.exe.config
+C:\Users\JackA\source\repos\CS50\CS50\bin\Debug\CS50.exe
+C:\Users\JackA\source\repos\CS50\CS50\bin\Debug\CS50.pdb
+C:\Users\JackA\source\repos\CS50\CS50\obj\Debug\CS50.csproj.AssemblyReference.cache
+C:\Users\JackA\source\repos\CS50\CS50\obj\Debug\CS50.csproj.CoreCompileInputs.cache
+C:\Users\JackA\source\repos\CS50\CS50\obj\Debug\CS50.exe
+C:\Users\JackA\source\repos\CS50\CS50\obj\Debug\CS50.pdb
