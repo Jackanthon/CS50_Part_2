@@ -10,8 +10,21 @@ namespace CS50
     {
         static void Main(string[] args)
         {
-            Week1.Pryamid();
+            Menu();
             Console.ReadLine();
+        }
+        public static void Menu()
+        {
+            Console.Write("Menu $");
+            string userChoice = Console.ReadLine();
+            Console.WriteLine();
+            if (userChoice == "Week1") { Week1.Pryamid(); }
+            
+            else
+            {
+                Environment.Exit(0);
+            }
         }
     }
 }
+//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

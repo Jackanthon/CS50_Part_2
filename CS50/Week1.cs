@@ -20,6 +20,7 @@ namespace CS50
                 string space = new string(' ', h - i);
                 Console.WriteLine(space + pyramid + "  " + pyramid);
             }
+            Program.Menu();
         }
     }
 }
