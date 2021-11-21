@@ -10,6 +10,18 @@ namespace CS50
     {
         static void Main(string[] args)
         {
+            string card = "4003600000000014";
+            int[] cardArr = new int[card.Length];
+            var counter1 = 0;
+            var counter2 = 0;
+            for (int i = 0; i < card.Length; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    cardArr[i] *= 2;
+                }
+            }
+
             Menu();
             Console.ReadLine();
         }
@@ -17,9 +29,9 @@ namespace CS50
         {
             Console.Write("Menu: ");
             string userChoice = Console.ReadLine();
-            Console.WriteLine();
-            if (userChoice == "Mario") { Week1.Pryamid(); }
-            if (userChoice == "Cash") { Week1.Cash(); }
+            if (userChoice == "ls") { Console.WriteLine("Mario\nCash"); Menu(); }
+            if (userChoice == "Mario" || userChoice == "mario") { Week1.Pryamid(); }
+            if (userChoice == "Cash" || userChoice == "cash") { Week1.Cash(); }
             else
             {
                 Environment.Exit(0);
@@ -27,5 +39,3 @@ namespace CS50
         }
     }
 }
-//if some customer is owed $9.75 (as in the case where a newspaper costs 25¢ but the customer pays
-//with a $10 bill), assume that your program’s input will be 9.75

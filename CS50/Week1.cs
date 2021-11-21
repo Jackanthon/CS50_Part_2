@@ -38,9 +38,9 @@ namespace CS50
         }
         public static void Cash()
         {
-            Console.WriteLine("Total");
+            Console.Write("Total: ");
             decimal total = Convert.ToDecimal(Console.ReadLine());
-            Console.WriteLine("Amount received");
+            Console.Write("Amount received: ");
             decimal customer = Convert.ToDecimal(Console.ReadLine());
             total = customer - total;
             bool changeDue = false;
