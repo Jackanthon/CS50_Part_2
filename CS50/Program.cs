@@ -16,12 +16,21 @@ namespace CS50
             var counter2 = 0;
             for (int i = 0; i < card.Length; i++)
             {
-                if (i % 2 != 0)
+                cardArr[i] = (int)(card[i] - '0');
+                if (cardArr[i] % 2 == 0)
                 {
-                    cardArr[i] *= 2;
+                    counter1 += int.Parse(card[i]) * 2;
+                    Console.WriteLine("counter1"+counter1);
+                }
+                else if(cardArr[i] % 2 != 0)
+                {
+                    counter2 += cardArr[i];
+                    Console.WriteLine("counter2" + counter2);
+
                 }
             }
-
+            counter1 += counter2;
+            Console.WriteLine(counter1);
             Menu();
             Console.ReadLine();
         }
